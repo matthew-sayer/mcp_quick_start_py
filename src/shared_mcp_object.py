@@ -2,7 +2,7 @@ import os
 import importlib
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("Matt_Nvidia_Hackathon_MCP_Server")
+mcp = FastMCP("MCP_QUICK_START")
 
 RESOURCES_DIR = os.path.join(os.path.dirname(__file__), 'resources')
 TOOLS_DIR = os.path.join(os.path.dirname(__file__), 'tools')
